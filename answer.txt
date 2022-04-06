@@ -1,0 +1,26 @@
+xTask 1
+$mkdir  GIT
+$ls  
+Task 2
+$cd GIT
+$touch Code.txt
+$touch Log.txt
+$touch Output.txt
+Task 3
+$git init 
+$git add Code.txt
+$git add Output.txt
+$git status   (to verify)
+Task 4
+$git commit -m “This is Commit 1” 
+Task 5
+Pre-requisites: 
+Setup an account on Github
+Configure Git Local Repo
+$git config --global user.name “Enter_User_Name”
+$git config --global user.email “Enter_Email”
+$git remote add origin <url_repository>
+Use username from Github
+Use Token from Github 
+$git push origin master 
+
